@@ -15,6 +15,7 @@ function App() {
                     occupation={character.occupation}
                     friends={character.friends}
                     superpowers={character.superpowers}
+                    info={character.info}
                     url={character.url}
                 ></Card>
             )}

@@ -3,7 +3,7 @@
 .card {
     display: grid;
     align-items: start;
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
     font-family: 'Caveat', cursive;
     text-align: center;
@@ -15,11 +15,8 @@
     margin: 0 0 10px;
 }
 
-.card__info-line {
-    margin: 0;
-}
-
-.card__category {
+.card__category,
+.card__details {
     font-weight: 600;
 }
 
