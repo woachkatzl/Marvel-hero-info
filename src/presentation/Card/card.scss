@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.card {
+    display: grid;
+    align-items: start;
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    border: 3px double;
+    border-radius: 10px;
+}
+
+.card__title {
+    margin: 0 0 10px;
+}
+
+.card__info-line {
+    margin: 0;
+}
+
+.card__category {
+    font-weight: 600;
+}
+
+.card__image {
+    align-self: end;
+    max-width: 100%;
+}
